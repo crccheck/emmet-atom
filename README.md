@@ -2,19 +2,13 @@
 
 [Emmet](http://emmet.io) support for [Atom](http://atom.io).
 
-## Installation
-
-* In Atom, open *Preferences* (*Settings* on Windows)
-* Go to *Install* section
-* Search for `Emmet` package. Once it found, click `Install` button to install package.
-
 ### Manual installation
 
 You can install the latest Emmet version manually from console:
 
 ```bash
 cd ~/.atom/packages
-git clone https://github.com/emmetio/emmet-atom
+git clone https://github.com/crccheck/emmet-atom
 cd emmet-atom
 npm install
 ```
@@ -49,7 +43,7 @@ Replace `YOUR GRAMMAR HERE` with actual grammar attribute value. The easiest way
 
 You can add as many sections as you like for different syntaxes. Note that default snippets will no longer work, but you can add [your own snippets in Emmet](http://docs.emmet.io/customization/).
 
-## Default Keybindings
+## Optional Keybindings
 
 You can change these in Preferences > Keybindings.
 
